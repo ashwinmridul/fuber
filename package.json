@@ -1,0 +1,25 @@
+{
+  "name": "fuber",
+  "version": "1.0.0",
+  "description": "Online cab service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwinmridul/fuber.git"
+  },
+  "keywords": [
+    "fuber"
+  ],
+  "author": "Ashwin Mridul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwinmridul/fuber/issues"
+  },
+  "homepage": "https://github.com/ashwinmridul/fuber#readme",
+  "dependencies": {
+    "update-json-file": "^1.1.1"
+  }
+}
