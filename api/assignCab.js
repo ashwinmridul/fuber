@@ -1,10 +1,10 @@
 const getNearestCab = require("./getNearestCab");
 const moveCabForTime = require("./moveCabForTime");
 const updateJsonFile = require('update-json-file');
-const filePath = '../data/cabs.json';
-let cabs = require(filePath)["data"];
 const calculateDistance = require("./calculateDistance");
 const cabSpeed = require("../data/config.json")["cabSpeed"];
+const filePath = '../data/cabs.json';
+let cabs = require(filePath)["data"];
 
 let assignCab = async function () {
     const nearestCab = getNearestCab(wantPink, sourceLocation);
