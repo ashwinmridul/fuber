@@ -1,4 +1,4 @@
-const moveCabForTime = async function(time) {
+const moveCabForTime = function(time) {
     return new Promise(r => setTimeout(r, time));
 };
 
